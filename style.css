@@ -1,11 +1,6 @@
 @font-face {
-	font-family: Lato Regular;
-	src: url('./resources/Lato Regular.ttf');
-}
-
-@font-face {
-	font-family: Intro Inline;
-	src: url('./resources/Intro Inline.otf');
+  font-family: Lato Regular;
+  src: url('./resources/Lato Regular.ttf');
 }
 
 html {
@@ -13,12 +8,8 @@ html {
 }
 
 html, body {
-	height: 100%;
-	font-family: Lato Regular;
-}
-
-h1, h2, {
-	font-family: Intro Inline;
+  height: 100%;
+  font-family: Lato Regular;
 }
 
 .hidden {
@@ -88,7 +79,7 @@ h1, h2, {
 }
 
 .carousel {
-	height: calc(100vh - 100px);
+  height: calc(100vh - 100px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
