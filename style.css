@@ -156,6 +156,13 @@ section h1 {
   margin-right: auto;
 }
 
+.about__subtagline {
+  text-align: center;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .reverse {
   flex-direction: row-reverse;
 }
