@@ -127,21 +127,21 @@ section h1 {
   flex-shrink: 1;
   flex-basis: 512px;
   padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
 .about__tagline {
   font-size: 1.5rem;
-  line-height: 2.5rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .about__group {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
-  margin: 3rem 0;
-  padding: 2rem 0;
+  flex-wrap: wrap-reverse;
+  padding-bottom: 2rem;
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
@@ -152,6 +152,7 @@ section h1 {
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 .reverse {
@@ -311,5 +312,8 @@ footer {
   }
   .container {
     padding: 0;
+  }
+  .about__subtagline {
+    margin-bottom: 1rem;
   }
 }
