@@ -5,6 +5,7 @@
 
 html {
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 html, body {
@@ -152,6 +153,10 @@ section h1 {
   max-width: 950px;
   margin-left: auto;
   margin-right: auto;
+  transform: translateX(50vw);
+  opacity: 0;
+  transition: transform ease-in-out 500ms, opacity ease-in-out 300ms;
+  will-change: transform;
 }
 
 .about__subtagline {
@@ -164,6 +169,7 @@ section h1 {
 
 .reverse {
   flex-direction: row-reverse;
+  transform: translateX(-50vw);
 }
 
 .services__wrapper {
