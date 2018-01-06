@@ -25,7 +25,7 @@ function activateScroll() {
     (function() {
       for (var i = aboutGroups.length - 1; i >= 0; i--) {
         var rect = aboutGroups[i].getBoundingClientRect();
-        if (rect.top < (windowHeight - rect.height) / 2 + windowHeight / 5) {
+        if (rect.top < (windowHeight - rect.height) / 2 + windowHeight / 3) {
           aboutGroups[i].style.transform = 'translateX(0)';
           aboutGroups[i].style.opacity = 1;
         }
