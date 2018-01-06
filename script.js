@@ -4,7 +4,9 @@ function activateCarousel(interval) {
   var currentItem = 1;
   var imagesCount = images.length;
 
-  document.getElementById('main-tagline').style.opacity = 1;
+  var mainTaglines = document.getElementsByClassName('main-tagline');
+  for (var i = 0; i < mainTaglines.length; i++)
+    mainTaglines[i].style.opacity = 1;
 
   return setInterval(function() {
     if (currentItem === 0) {
